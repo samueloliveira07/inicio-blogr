@@ -1,0 +1,117 @@
+body {
+    background-color: #f0f0ee;
+    font-family:'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    background: linear-gradient(to right, #ff8775, #ff6862);
+    color: #ffffff;
+    height: 400px;
+    border-radius: 0 0 0 100px;
+}
+
+.cabecalho h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    height: 100px;
+    padding: 40px 0 0 40px ;
+}
+
+details {
+    margin-top: 15px;
+}
+
+button {
+    cursor: pointer;
+    font-family:'Montserrat', sans-serif;;
+}
+
+.btn_nav {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+.btn_login, .btn_learn {
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    background-color: #ff6862;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.btn_sign, .btn_start {
+    color: #ff6862;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+}
+
+.main_text {
+    text-align: center;
+    
+}
+
+.main_text h2 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.main_text h2, p , button {
+    margin-bottom: 30px;
+}
+
+main {
+    color: #12395f;
+}
+
+.title_main {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2.2em;
+    font-weight: bold;
+
+}
+
+.circle {
+    margin-left:-180px;
+    position: sticky;
+    
+}
+
+.circle_1 {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #bdb7b9;
+    border-radius: 400px;
+}
+
+.circle_2 {
+    width: 650px;
+    height: 650px;
+    border: 1px solid #a5a5a5;
+    border-radius: 325px ;
+    margin: 75px 0 0 70px;
+}
+
+.circle_3 {
+    width: 550px;
+    height: 550px;
+    border-radius: 275px;
+    background-color: #e2e2e2;
+    margin: 50px 0 0 50px; 
+}
+
