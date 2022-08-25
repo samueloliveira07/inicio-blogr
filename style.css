@@ -30,7 +30,16 @@ details {
 
 button {
     cursor: pointer;
-    font-family:'Montserrat', sans-serif;;
+    font-family:'Montserrat', sans-serif;
+    transition: all 0.333ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.98);
 }
 
 .btn_nav {
@@ -75,7 +84,7 @@ button {
 }
 
 main {
-    color: #12395f;
+    color: #102245;
 }
 
 .title_main {
@@ -86,10 +95,13 @@ main {
 
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
 .circle {
     margin-left:-180px;
-    position: sticky;
-    
 }
 
 .circle_1 {
@@ -113,5 +125,87 @@ main {
     border-radius: 275px;
     background-color: #e2e2e2;
     margin: 50px 0 0 50px; 
+}
+
+.art {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 770px;
+}
+
+.art_circle_top {
+    background: linear-gradient(to right, #ff8775, #ff6862);
+    height: 100px;
+    border-radius: 0 10px 0 0;
+}
+
+.art_circle_bottom {
+    background-color: #102245;
+    min-height: 250px;
+    border-radius: 0 0 10px 0;
+}
+
+.content_text {
+    margin: 150px 0 0 400px ;
+}
+
+.text {
+    width: 600px;
+    height: 300px;
+    line-height: 30px; 
+}
+
+.text h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.infrastructure {
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    height: 350px;
+    background-color: #25293d;
+    border-radius: 100px 0 100px 0;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_infrastructure {
+    width: 500px;
+    line-height: 30px; 
+    margin-top: 70px; 
+}
+
+.text_infrastructure h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.infrastructure img {
+    height: 370px;
+    margin-top: -50px;
+}
+
+.background_cellphone {
+    width: 155px;
+    height: 335px;
+    background: linear-gradient(to right, #ff8775, #ff6862);
+    position: absolute;
+    left: 1414px;
+    margin-top: -40px;
+    border-radius: 15px;
+}
+
+.p_back_cell {
+    margin-top: 100%;
+    margin-left: 23%;
+    font-size: 30px;
+    font-weight: bold;
 }
 
